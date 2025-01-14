@@ -1,0 +1,39 @@
+html,body{
+    background-color: hsl(216, 15%, 48%);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    display:flex;
+    background-color: white;
+    width: 300px;
+    height:500px;
+    margin:auto;
+    border-radius: 5%;
+    
+}
+
+.qr-photo {
+    margin:10px auto;
+    border-radius: 13%;
+    width: 280px;
+    height: 300px;
+    
+    
+
+}
+.qr-photo img{
+    border-radius:2%;
+    width:280px;
+    height:300px;
+    overflow:hidden;
+    object-fit:contain;
+}
+.qr-photo,.card{
+    overflow: hidden;
+}
